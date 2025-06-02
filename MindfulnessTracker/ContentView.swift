@@ -20,7 +20,7 @@ class ContentViewController: UIViewController {
     
     private let descriptionLabel: UILabel = {
         let label = UILabel()
-        label.text = "一切念頭，皆緣起性空，無有自性，虛妄和合而起，故名妄念。當妄（旺）念升起之時，讓一聲可愛狗狗『旺！』提醒您——此念非真，莫逐妄流，當下覺照，回歸本心。"
+        label.text = "當妄（旺）念升起之時，讓一聲可愛狗狗『旺！』提醒您——此念非真，莫逐妄流，當下覺照，回歸本心。"
         label.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         label.textColor = .systemGray
         label.textAlignment = .center
