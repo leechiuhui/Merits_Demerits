@@ -396,3 +396,87 @@ let messages = [
 ---
 
 **願此 App 幫助您培養覺察力，活在當下的每一刻 🙏✨**
+
+## 📱 App Store 上架指南
+
+### 🚀 快速開始上架流程
+
+#### 必要準備
+1. **Apple Developer Program 帳號** ($99/年)
+2. **App 圖示和截圖** (參考 `app_icon_requirements.md`)
+3. **完整的 App 描述** (參考 `appstore_metadata.md`)
+
+#### 一鍵準備腳本
+```bash
+# 準備 App Store 版本
+./prepare_appstore.sh
+```
+
+#### 詳細指南
+請參考 `app_store_submission_guide.md` 獲得完整的上架步驟說明。
+
+### 📋 上架檢查清單
+
+**技術準備：**
+- [ ] 開發者帳號註冊完成
+- [ ] Distribution Certificate 設定
+- [ ] App Store Provisioning Profile 配置
+- [ ] Bundle ID 設定正確 (`com.mindfulness.tracker`)
+- [ ] Release 版本編譯成功
+
+**內容準備：**
+- [ ] App 圖示 (1024x1024)
+- [ ] 各尺寸設備截圖
+- [ ] App 描述和關鍵字
+- [ ] 隱私政策 (如需要)
+- [ ] 支援聯絡資訊
+
+**審查準備：**
+- [ ] 功能完整測試
+- [ ] 審查備註準備
+- [ ] 預期問題回答
+- [ ] 內容合規檢查
+
+### 🎯 重要注意事項
+
+#### 佛學內容說明
+為確保審查順利，建議在提交時說明：
+- 這是**教育性正念工具**，非宗教傳播 App
+- 基於**科學研究的正念練習**概念
+- 無宗教儀式或特定信仰要求
+- 內容均為正面教育性質
+
+#### 功能描述要點
+- 明確說明這是**覺察訓練工具**
+- 避免誇大健康療效聲稱
+- 強調是**輔助工具**而非醫療治療
+- 突出隱私保護和離線運行特性
+
+### 📊 上架後優化
+
+#### ASO (App Store Optimization)
+- 定期檢查關鍵字排名
+- 根據用戶反饋調整描述
+- 監控競爭對手策略
+- 鼓勵用戶評價和回饋
+
+#### 持續改進
+- 收集用戶使用數據
+- 修復 bug 和改進體驗
+- 定期發布更新版本
+- 增加新功能和改進
+
+### 🔗 相關資源
+
+**上架文件：**
+- `app_icon_requirements.md` - 圖示設計需求
+- `appstore_metadata.md` - App Store 描述和元數據
+- `app_store_submission_guide.md` - 詳細上架指南
+- `prepare_appstore.sh` - 自動化準備腳本
+
+**官方資源：**
+- [App Store Connect](https://appstoreconnect.apple.com/)
+- [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+
+---
