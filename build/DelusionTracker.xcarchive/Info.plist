@@ -11,7 +11,7 @@
 			<string>arm64</string>
 		</array>
 		<key>CFBundleIdentifier</key>
-		<string>com.delusion.tracker</string>
+		<string>com.delusion.tracker.mindfulness</string>
 		<key>CFBundleShortVersionString</key>
 		<string>1.0</string>
 		<key>CFBundleVersion</key>
@@ -24,22 +24,22 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2025-06-05T06:18:33Z</date>
+	<date>2025-06-05T07:23:22Z</date>
 	<key>Distributions</key>
 	<array>
 		<dict>
 			<key>adamId</key>
-			<string>6746830706</string>
+			<string>6746836386</string>
 			<key>certificateSHA1</key>
 			<string>5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37</string>
 			<key>destination</key>
 			<string>upload</string>
 			<key>identifier</key>
-			<string>2d18c028-de56-48ce-b32d-2e8e82775ba6</string>
+			<string>b5ecd5fb-2a39-4c6d-9e91-7a930b61b66c</string>
 			<key>preparationEvent</key>
 			<dict>
 				<key>date</key>
-				<string>2025-06-05T06:19:02Z</string>
+				<string>2025-06-05T07:23:58Z</string>
 				<key>errors</key>
 				<array/>
 				<key>infoMessages</key>
@@ -64,7 +64,7 @@
 			<key>uploadEvent</key>
 			<dict>
 				<key>date</key>
-				<string>2025-06-05T06:19:56Z</string>
+				<string>2025-06-05T07:24:55Z</string>
 				<key>errors</key>
 				<array/>
 				<key>infoMessages</key>
@@ -79,7 +79,7 @@
 				<array/>
 			</dict>
 			<key>uploadedBuildNumber</key>
-			<string>4</string>
+			<string>2</string>
 		</dict>
 	</array>
 	<key>Name</key>

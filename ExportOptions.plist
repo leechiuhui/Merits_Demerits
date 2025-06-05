@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>method</key>
-    <string>app-store</string>
+    <string>app-store-connect</string>
     <key>teamID</key>
     <string>93XR54H2GG</string>
     <key>uploadBitcode</key>
@@ -16,8 +16,8 @@
     <string>upload</string>
     <key>provisioningProfiles</key>
     <dict>
-        <key>com.delusion.tracker</key>
-        <string>Delusion Tracker Distribution</string>
+        <key>com.delusion.tracker.mindfulness</key>
+        <string>Delusion Tracker Mindfulness Distribution</string>
     </dict>
     <key>signingStyle</key>
     <string>manual</string>
