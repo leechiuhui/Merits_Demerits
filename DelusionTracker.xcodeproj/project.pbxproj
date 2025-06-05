@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A123456789012345678900E /* delusionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delusionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A123456789012345678900E /* DelusionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelusionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1234567890123456789011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A1234567890123456789013 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2A1234567890123456789015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		2A1234567890123456789005 = {
 			isa = PBXGroup;
 			children = (
-				2A1234567890123456789010 /* delusionTracker */,
+				2A1234567890123456789010 /* DelusionTracker */,
 				2A123456789012345678900F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		2A123456789012345678900F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A123456789012345678900E /* delusionTracker.app */,
+				2A123456789012345678900E /* DelusionTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A1234567890123456789010 /* delusionTracker */ = {
+		2A1234567890123456789010 /* DelusionTracker */ = {
 			isa = PBXGroup;
 			children = (
 				2A1234567890123456789011 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				2A123456789012345678901C /* woof.wav */,
 				2A123456789012345678901E /* Info.plist */,
 			);
-			path = delusionTracker;
+			path = DelusionTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A123456789012345678900D /* delusionTracker */ = {
+		2A123456789012345678900D /* DelusionTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A1234567890123456789022 /* Build configuration list for PBXNativeTarget "delusionTracker" */;
+			buildConfigurationList = 2A1234567890123456789022 /* Build configuration list for PBXNativeTarget "DelusionTracker" */;
 			buildPhases = (
 				2A123456789012345678900A /* Sources */,
 				2A123456789012345678900B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = delusionTracker;
-			productName = delusionTracker;
-			productReference = 2A123456789012345678900E /* delusionTracker.app */;
+			name = DelusionTracker;
+			productName = DelusionTracker;
+			productReference = 2A123456789012345678900E /* DelusionTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A123456789012345678900D /* delusionTracker */,
+				2A123456789012345678900D /* DelusionTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -267,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,7 +287,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93XR54H2GG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = delusionTracker/Info.plist;
+				INFOPLIST_FILE = DelusionTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -318,7 +318,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 93XR54H2GG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = delusionTracker/Info.plist;
+				INFOPLIST_FILE = DelusionTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A1234567890123456789022 /* Build configuration list for PBXNativeTarget "delusionTracker" */ = {
+		2A1234567890123456789022 /* Build configuration list for PBXNativeTarget "DelusionTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A1234567890123456789023 /* Debug */,

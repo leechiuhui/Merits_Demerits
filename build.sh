@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # 妄念追蹤器 - 一鍵編譯腳本
-# delusionTracker - One-Click Build Script
+# DelusionTracker - One-Click Build Script
 
-echo "🔨 開始編譯 delusionTracker..."
-echo "🔨 Starting to build delusionTracker..."
+echo "🔨 開始編譯 DelusionTracker..."
+echo "🔨 Starting to build DelusionTracker..."
 
 # 檢查是否在正確的目錄
-if [ ! -f "delusionTracker.xcodeproj/project.pbxproj" ]; then
-    echo "❌ 錯誤：請在 delusionTracker 專案根目錄中執行此腳本"
-    echo "❌ Error: Please run this script in the delusionTracker project root directory"
+if [ ! -f "DelusionTracker.xcodeproj/project.pbxproj" ]; then
+    echo "❌ 錯誤：請在 DelusionTracker 專案根目錄中執行此腳本"
+    echo "❌ Error: Please run this script in the DelusionTracker project root directory"
     exit 1
 fi
 
@@ -17,8 +17,8 @@ fi
 echo "🧹 清理舊的建置檔案..."
 echo "🧹 Cleaning old build files..."
 
-xcodebuild -project delusionTracker.xcodeproj \
-  -scheme delusionTracker \
+xcodebuild -project DelusionTracker.xcodeproj \
+  -scheme DelusionTracker \
   -destination 'platform=iOS Simulator,name=iPhone 15 Pro Test,OS=18.5' \
   clean build
 
@@ -31,7 +31,7 @@ if [ $? -eq 0 ]; then
     echo "🔍 尋找編譯後的 App..."
     echo "🔍 Looking for compiled app..."
     
-    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "DelusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
     
     if [ -n "$APP_PATH" ]; then
         echo "📱 安裝 App 到模擬器..."
@@ -51,7 +51,7 @@ if [ $? -eq 0 ]; then
                 echo "🎉 Done! App is now running in simulator"
                 echo ""
                 echo "📱 妄念追蹤器已準備就緒，開始您的正念練習！"
-                echo "📱 delusionTracker is ready, start your delusion practice!"
+                echo "📱 DelusionTracker is ready, start your delusion practice!"
             else
                 echo "❌ 啟動 App 失敗"
                 echo "❌ Failed to launch app"
