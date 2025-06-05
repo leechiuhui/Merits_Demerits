@@ -1,0 +1,164 @@
+2025-06-05 05:48:18 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x153e95280; archive(resolved)="<IDEArchive: 0x60000b08ef40>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (17, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x153e95280; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x153e94ff0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x153e94de0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x312eb5200; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x119aa6830; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x145e81e10; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x119a189c0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x119a95710; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x312ef5740; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x153e80770; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x157867440; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x312e0cbb0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600004045540; teamID='93XR54H2GG', teamName='Chiuhui Lee', teamType='Individual', username='leechiuhui@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x1578e50f0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="(null)">
+	<IDEDistributionContext: 0x12632e8d0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x6000018744e0>", team="(null)">
+	<IDEDistributionContext: 0x3043fa2e0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x153e52830; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x1260a99f0; archive = "<IDEArchive: 0x60000b08ef40>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x153e95280>
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionCreateDestRootStep
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionCopyItemStep
+2025-06-05 05:48:18 +0000  Running /usr/bin/ditto '-V' '/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app'
+2025-06-05 05:48:18 +0000  >>> Copying /Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app 
+2025-06-05 05:48:18 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-06-05 05:48:18 +0000  3893 bytes for ./_CodeSignature/CodeResources
+2025-06-05 05:48:18 +0000  copying file ./woof.wav ... 
+2025-06-05 05:48:18 +0000  210044 bytes for ./woof.wav
+2025-06-05 05:48:18 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-06-05 05:48:18 +0000  9665 bytes for ./AppIcon60x60@2x.png
+2025-06-05 05:48:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-06-05 05:48:18 +0000  3974 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-06-05 05:48:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-06-05 05:48:18 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-06-05 05:48:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2025-06-05 05:48:18 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2025-06-05 05:48:18 +0000  copying file ./Assets.car ... 
+2025-06-05 05:48:18 +0000  1614863 bytes for ./Assets.car
+2025-06-05 05:48:18 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2025-06-05 05:48:18 +0000  13692 bytes for ./AppIcon76x76@2x~ipad.png
+2025-06-05 05:48:18 +0000  copying file ./delusionTracker ... 
+2025-06-05 05:48:18 +0000  114464 bytes for ./delusionTracker
+2025-06-05 05:48:18 +0000  copying file ./embedded.mobileprovision ... 
+2025-06-05 05:48:18 +0000  12212 bytes for ./embedded.mobileprovision
+2025-06-05 05:48:18 +0000  copying file ./Info.plist ... 
+2025-06-05 05:48:18 +0000  1938 bytes for ./Info.plist
+2025-06-05 05:48:18 +0000  copying file ./PkgInfo ... 
+2025-06-05 05:48:18 +0000  8 bytes for ./PkgInfo
+2025-06-05 05:48:18 +0000  /usr/bin/ditto exited with 0
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionEmbedProfileStep
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionInfoPlistStep
+2025-06-05 05:48:18 +0000  Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionItemRemovalStep
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2025-06-05 05:48:18 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionSymbolsStep
+2025-06-05 05:48:18 +0000  Writing /var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Symbols/371EAB9F-C6CB-34A7-860D-48426340855C.symbols
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionAppThinningStep
+2025-06-05 05:48:18 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionArchThinningStep
+2025-06-05 05:48:18 +0000  Item /Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2025-06-05 05:48:18 +0000  Archs to thin for item /Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app are ["arm64e"]
+2025-06-05 05:48:18 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app/delusionTracker' '-verify_arch' 'arm64e'
+2025-06-05 05:48:18 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-06-05 05:48:18 +0000  Skipping architecture thinning for item "delusionTracker" because arch "arm64e" wasn't found
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionODRStep
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionStripXattrsStep
+2025-06-05 05:48:18 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2025-06-05 05:48:18 +0000  Processing step: IDEDistributionCodesignStep
+2025-06-05 05:48:18 +0000  Entitlements for <IDEDistributionItem: 0x60000be39320; bundleID='com.delusion.tracker', path='<DVTFilePath:0x60000b043020:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600007fdb6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000218c000; name='Apple Distribution: Chiuhui Lee (93XR54H2GG)', hash='5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37', serialNumber='B1D37C33F193C49BA0091B2A51A8447', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-06-05 05:03:55 +0000''>', entitlements='{
+    "application-identifier" = "93XR54H2GG.com.delusion.tracker";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 93XR54H2GG;
+    "get-task-allow" = 0;
+}', teamID='93XR54H2GG', identifier='com.delusion.tracker', executablePath='<DVTFilePath:0x60000be61ce0:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app/delusionTracker'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "93XR54H2GG.com.delusion.tracker";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 93XR54H2GG;
+    "get-task-allow" = 0;
+}
+2025-06-05 05:48:18 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-06-05 05:48:18 +0000  Entitlements for <IDEDistributionItem: 0x60000be39320; bundleID='com.delusion.tracker', path='<DVTFilePath:0x60000b043020:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600007fdb6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000218c000; name='Apple Distribution: Chiuhui Lee (93XR54H2GG)', hash='5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37', serialNumber='B1D37C33F193C49BA0091B2A51A8447', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-06-05 05:03:55 +0000''>', entitlements='{
+    "application-identifier" = "93XR54H2GG.com.delusion.tracker";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 93XR54H2GG;
+    "get-task-allow" = 0;
+}', teamID='93XR54H2GG', identifier='com.delusion.tracker', executablePath='<DVTFilePath:0x60000be61ce0:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app/delusionTracker'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "93XR54H2GG.com.delusion.tracker";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 93XR54H2GG;
+    "get-task-allow" = 0;
+}
+2025-06-05 05:48:18 +0000  Writing entitlements for <IDEDistributionItem: 0x60000be39320; bundleID='com.delusion.tracker', path='<DVTFilePath:0x60000b043020:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600007fdb6c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000218c000; name='Apple Distribution: Chiuhui Lee (93XR54H2GG)', hash='5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37', serialNumber='B1D37C33F193C49BA0091B2A51A8447', certificateKinds='(
+    "1.2.840.113635.100.6.1.7",
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-06-05 05:03:55 +0000''>', entitlements='{
+    "application-identifier" = "93XR54H2GG.com.delusion.tracker";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 93XR54H2GG;
+    "get-task-allow" = 0;
+}', teamID='93XR54H2GG', identifier='com.delusion.tracker', executablePath='<DVTFilePath:0x60000be61ce0:'/Users/chiuhuilee/Library/Developer/Xcode/Archives/2025-06-05/delusionTracker 2025-6-5, 1.48 PM.xcarchive/Products/Applications/delusionTracker.app/delusionTracker'>', hardenedRuntime='0'>'> to: /var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/entitlements~~~HfhveU
+2025-06-05 05:48:18 +0000  invoking codesign: <NSConcreteTask: 0x60000fa55ef0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37,
+    "--entitlements",
+    "/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/entitlements~~~HfhveU",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app"
+)'>
+2025-06-05 05:48:23 +0000  codesign output: /var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app: replacing existing signature
+/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app: signed app bundle with Mach-O thin (arm64) [com.delusion.tracker]
+2025-06-05 05:48:23 +0000  Processing step: IDEDistributionZipODRItemStep
+2025-06-05 05:48:23 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-06-05 05:48:23 +0000  Processing step: IDEDistributionCreateIPAStep
+2025-06-05 05:48:23 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Symbols' '--link-dest' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root'
+2025-06-05 05:48:23 +0000  Symbols/
+Symbols/371EAB9F-C6CB-34A7-860D-48426340855C.symbols
+2025-06-05 05:48:23 +0000  /usr/bin/rsync exited with 0
+2025-06-05 05:48:23 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root' '/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Packages/delusionTracker.ipa'
+2025-06-05 05:48:23 +0000  >>> Copying /var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root 
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/_CodeSignature/CodeResources ... 
+2025-06-05 05:48:23 +0000  3893 bytes for ./Payload/delusionTracker.app/_CodeSignature/CodeResources
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/woof.wav ... 
+2025-06-05 05:48:23 +0000  210044 bytes for ./Payload/delusionTracker.app/woof.wav
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/AppIcon60x60@2x.png ... 
+2025-06-05 05:48:23 +0000  9665 bytes for ./Payload/delusionTracker.app/AppIcon60x60@2x.png
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-06-05 05:48:23 +0000  3974 bytes for ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-06-05 05:48:23 +0000  924 bytes for ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2025-06-05 05:48:23 +0000  258 bytes for ./Payload/delusionTracker.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/Assets.car ... 
+2025-06-05 05:48:23 +0000  1614863 bytes for ./Payload/delusionTracker.app/Assets.car
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/AppIcon76x76@2x~ipad.png ... 
+2025-06-05 05:48:23 +0000  13692 bytes for ./Payload/delusionTracker.app/AppIcon76x76@2x~ipad.png
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/delusionTracker ... 
+2025-06-05 05:48:23 +0000  114464 bytes for ./Payload/delusionTracker.app/delusionTracker
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/embedded.mobileprovision ... 
+2025-06-05 05:48:23 +0000  14339 bytes for ./Payload/delusionTracker.app/embedded.mobileprovision
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/Info.plist ... 
+2025-06-05 05:48:23 +0000  1938 bytes for ./Payload/delusionTracker.app/Info.plist
+2025-06-05 05:48:23 +0000  copying file ./Payload/delusionTracker.app/PkgInfo ... 
+2025-06-05 05:48:23 +0000  8 bytes for ./Payload/delusionTracker.app/PkgInfo
+2025-06-05 05:48:23 +0000  copying file ./Symbols/371EAB9F-C6CB-34A7-860D-48426340855C.symbols ... 
+2025-06-05 05:48:23 +0000  46716 bytes for ./Symbols/371EAB9F-C6CB-34A7-860D-48426340855C.symbols
+2025-06-05 05:48:23 +0000  /usr/bin/ditto exited with 0
+2025-06-05 05:48:23 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2025-06-05 05:48:23 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-06-05 05:48:23 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-06-05 05:48:23 +0000  IDEDistributionItem init <DVTFilePath:0x60000b0befb0:'/var/folders/gg/gxbs2g_d71g5ndxmpbjvjdwr0000gn/T/XcodeDistPipeline.~~~srMi3d/Root/Payload/delusionTracker.app'>
+2025-06-05 05:48:23 +0000  Processing step: IDEDistributionCreateManifestStep
+2025-06-05 05:48:23 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

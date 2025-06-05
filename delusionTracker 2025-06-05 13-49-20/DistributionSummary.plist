@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>delusionTracker.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5FCE7E2F439C4E79B4922B2BDF63E7CFD3F76D37</string>
+				<key>dateExpires</key>
+				<string>2026/6/5</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>93XR54H2GG.com.delusion.tracker</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>93XR54H2GG</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>delusionTracker.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>27b1050a-bc09-4bd5-95f9-e85bbcfd9e1e</string>
+				<key>dateExpires</key>
+				<string>2026/6/5</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.delusion.tracker</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>93XR54H2GG</string>
+				<key>name</key>
+				<string>Chiuhui Lee</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
