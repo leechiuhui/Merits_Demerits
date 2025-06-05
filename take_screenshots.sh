@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 妄念追蹤器 - 自動截圖腳本
-# MindfulnessTracker - Auto Screenshot Script
+# delusionTracker - Auto Screenshot Script
 
 echo "📸 開始 App 截圖拍攝流程..."
 echo "📸 Starting App screenshot process..."
@@ -16,7 +16,7 @@ if [ ! -d "$HOME/Library/Developer/Xcode/DerivedData" ]; then
 fi
 
 # 尋找最新編譯的 App
-APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
 
 if [ -z "$APP_PATH" ]; then
     echo "❌ 找不到編譯好的 App"
@@ -26,7 +26,7 @@ if [ -z "$APP_PATH" ]; then
     ./build.sh
     
     # 重新尋找 App
-    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
     
     if [ -z "$APP_PATH" ]; then
         echo "❌ 編譯失敗，無法找到 App"
@@ -87,7 +87,7 @@ take_screenshots_for_device() {
     # 啟動 App
     echo "🚀 啟動 App..."
     echo "🚀 Launching app..."
-    xcrun simctl launch "$sim_name" com.mindfulness.tracker
+    xcrun simctl launch "$sim_name" com.delusion.tracker
     
     # 等待 App 完全載入
     sleep 3

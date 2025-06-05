@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# 添加狗狗圖片到 MindfulnessTracker 專案
-# Add Dog Image to MindfulnessTracker Project
+# 添加狗狗圖片到 delusionTracker 專案
+# Add Dog Image to delusionTracker Project
 
 echo "🐕 開始添加狗狗圖片到專案..."
 echo "🐕 Starting to add dog image to project..."
 
 # 檢查是否在正確的目錄
-if [ ! -f "MindfulnessTracker.xcodeproj/project.pbxproj" ]; then
-    echo "❌ 錯誤：請在 MindfulnessTracker 專案根目錄中執行此腳本"
-    echo "❌ Error: Please run this script in the MindfulnessTracker project root directory"
+if [ ! -f "delusionTracker.xcodeproj/project.pbxproj" ]; then
+    echo "❌ 錯誤：請在 delusionTracker 專案根目錄中執行此腳本"
+    echo "❌ Error: Please run this script in the delusionTracker project root directory"
     exit 1
 fi
 
@@ -28,7 +28,7 @@ if [ ! -f "Dog.png" ]; then
 fi
 
 # 檢查目標目錄是否存在
-TARGET_DIR="MindfulnessTracker/Assets.xcassets/Dog.imageset"
+TARGET_DIR="delusionTracker/Assets.xcassets/Dog.imageset"
 if [ ! -d "$TARGET_DIR" ]; then
     echo "📁 創建 Dog.imageset 目錄..."
     echo "📁 Creating Dog.imageset directory..."

@@ -9,7 +9,7 @@
 專注當下，覺察妄念，培養正念習慣
 
 ### Bundle ID
-`com.mindfulness.tracker.app`
+`com.delusion.tracker.app`
 
 ## 📝 App 描述
 
@@ -64,7 +64,7 @@
 「旺」一聲提醒，回歸當下！結合佛學智慧的正念覺察工具，幫助您培養覺察力，活在每一個當下時刻。
 
 ### 行銷網址 (可選)
-https://github.com/your-username/mindfulness-tracker
+https://github.com/your-username/delusion-tracker
 
 ### 支援網址
 mailto:your-email@example.com

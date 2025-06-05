@@ -7,7 +7,7 @@ echo "📸 快速截圖演示 - iPhone 15 Pro Test"
 echo "📸 Quick Screenshot Demo - iPhone 15 Pro Test"
 
 # 尋找編譯好的 App
-APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
 
 if [ -z "$APP_PATH" ]; then
     echo "❌ 找不到編譯好的 App，請先運行 ./build.sh"
@@ -42,7 +42,7 @@ xcrun simctl install "$SIM_NAME" "$APP_PATH"
 # 啟動 App
 echo "🚀 啟動 App..."
 echo "🚀 Launching app..."
-xcrun simctl launch "$SIM_NAME" com.mindfulness.tracker
+xcrun simctl launch "$SIM_NAME" com.delusion.tracker
 
 # 等待載入
 sleep 3

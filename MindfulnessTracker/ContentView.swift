@@ -40,7 +40,7 @@ class ContentViewController: UIViewController {
         return label
     }()
     
-    private let mindfulnessButton: UIButton = {
+    private let delusionButton: UIButton = {
         let button = UIButton(type: .custom)
         
         // 設置狗狗圖片作為按鈕背景
@@ -108,12 +108,12 @@ class ContentViewController: UIViewController {
         view.addSubview(titleLabel)
         view.addSubview(descriptionLabel)
         view.addSubview(countLabel)
-        view.addSubview(mindfulnessButton)
+        view.addSubview(delusionButton)
         view.addSubview(messageLabel)
         view.addSubview(reminderLabel)
         
         // Setup button action
-        mindfulnessButton.addTarget(self, action: #selector(mindfulnessButtonTapped), for: .touchUpInside)
+        delusionButton.addTarget(self, action: #selector(delusionButtonTapped), for: .touchUpInside)
         
         // Setup constraints
         NSLayoutConstraint.activate([
@@ -132,14 +132,14 @@ class ContentViewController: UIViewController {
             countLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             countLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             
-            // Mindfulness button
-            mindfulnessButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            mindfulnessButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 10),
-            mindfulnessButton.widthAnchor.constraint(equalToConstant: 200),
-            mindfulnessButton.heightAnchor.constraint(equalToConstant: 200),
+            // delusion button
+            delusionButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            delusionButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 10),
+            delusionButton.widthAnchor.constraint(equalToConstant: 200),
+            delusionButton.heightAnchor.constraint(equalToConstant: 200),
             
             // Message label
-            messageLabel.topAnchor.constraint(equalTo: mindfulnessButton.bottomAnchor, constant: 40),
+            messageLabel.topAnchor.constraint(equalTo: delusionButton.bottomAnchor, constant: 40),
             messageLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             messageLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             
@@ -156,7 +156,7 @@ class ContentViewController: UIViewController {
     }
     
     // MARK: - Actions
-    @objc private func mindfulnessButtonTapped() {
+    @objc private func delusionButtonTapped() {
         // Increment thought count
         thoughtCount += 1
         saveThoughtCount()
@@ -236,10 +236,10 @@ class ContentViewController: UIViewController {
     
     private func animateButton() {
         UIView.animate(withDuration: 0.1) {
-            self.mindfulnessButton.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
+            self.delusionButton.transform = CGAffineTransform(scaleX: 0.9, y: 0.9)
         } completion: { _ in
             UIView.animate(withDuration: 0.1) {
-                self.mindfulnessButton.transform = CGAffineTransform.identity
+                self.delusionButton.transform = CGAffineTransform.identity
             }
         }
     }

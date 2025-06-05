@@ -43,10 +43,10 @@ xcrun simctl boot "iPhone 15 Pro Max Screenshot"
 open -a Simulator
 
 # 安裝 App
-xcrun simctl install "iPhone 15 Pro Max Screenshot" "Build/Products/Debug-iphonesimulator/MindfulnessTracker.app"
+xcrun simctl install "iPhone 15 Pro Max Screenshot" "Build/Products/Debug-iphonesimulator/delusionTracker.app"
 
 # 啟動 App
-xcrun simctl launch "iPhone 15 Pro Max Screenshot" com.mindfulness.tracker
+xcrun simctl launch "iPhone 15 Pro Max Screenshot" com.delusion.tracker
 ```
 
 ### 步驟 2: 設定模擬器環境
@@ -95,8 +95,8 @@ mkdir -p Screenshots/{iPhone_6.7,iPhone_6.1,iPhone_5.5}
 echo "📱 拍攝 iPhone 15 Pro Max 截圖..."
 xcrun simctl boot "iPhone 15 Pro Max Screenshot"
 sleep 3
-xcrun simctl install "iPhone 15 Pro Max Screenshot" "Build/Products/Debug-iphonesimulator/MindfulnessTracker.app"
-xcrun simctl launch "iPhone 15 Pro Max Screenshot" com.mindfulness.tracker
+xcrun simctl install "iPhone 15 Pro Max Screenshot" "Build/Products/Debug-iphonesimulator/delusionTracker.app"
+xcrun simctl launch "iPhone 15 Pro Max Screenshot" com.delusion.tracker
 sleep 2
 
 # 拍攝主畫面
@@ -192,7 +192,7 @@ iPhone_5.5_02_button_pressed.png
 echo "📸 開始 App 截圖拍攝流程..."
 
 # 檢查是否有編譯好的 App
-if [ ! -d "Build/Products/Debug-iphonesimulator/MindfulnessTracker.app" ]; then
+if [ ! -d "Build/Products/Debug-iphonesimulator/delusionTracker.app" ]; then
     echo "🔨 先編譯 App..."
     ./build.sh
 fi
@@ -223,8 +223,8 @@ for device_info in "${devices[@]}"; do
     sleep 3
     
     # 安裝並啟動 App
-    xcrun simctl install "$sim_name" "Build/Products/Debug-iphonesimulator/MindfulnessTracker.app"
-    xcrun simctl launch "$sim_name" com.mindfulness.tracker
+    xcrun simctl install "$sim_name" "Build/Products/Debug-iphonesimulator/delusionTracker.app"
+    xcrun simctl launch "$sim_name" com.delusion.tracker
     sleep 2
     
     # 拍攝主畫面

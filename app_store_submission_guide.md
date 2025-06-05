@@ -38,8 +38,8 @@
    - 填寫基本資訊：
      - 名稱: `妄念追蹤器`
      - 語言: `繁體中文`
-     - Bundle ID: `com.mindfulness.tracker`
-     - SKU: `mindfulness-tracker-001`
+     - Bundle ID: `com.delusion.tracker`
+     - SKU: `delusion-tracker-001`
 
 ### 步驟 2: 設定 App 資訊
 

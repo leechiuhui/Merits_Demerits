@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 妄念追蹤器 - App Store 準備腳本
-# MindfulnessTracker - App Store Preparation Script
+# delusionTracker - App Store Preparation Script
 
 echo "🚀 開始準備 App Store 上架..."
 echo "🚀 Starting App Store preparation..."
@@ -28,11 +28,11 @@ echo "📱 Step 2: Check Provisioning Profile"
 echo "🔨 步驟 3: 創建 Release 版本"
 echo "🔨 Step 3: Create Release build"
 
-xcodebuild -project MindfulnessTracker.xcodeproj \
-  -scheme MindfulnessTracker \
+xcodebuild -project delusionTracker.xcodeproj \
+  -scheme delusionTracker \
   -configuration Release \
   -destination generic/platform=iOS \
-  archive -archivePath ./MindfulnessTracker.xcarchive
+  archive -archivePath ./delusionTracker.xcarchive
 
 if [ $? -eq 0 ]; then
     echo "✅ Release 版本編譯成功！"
@@ -63,15 +63,15 @@ EOF
 
     # 匯出 IPA
     xcodebuild -exportArchive \
-      -archivePath ./MindfulnessTracker.xcarchive \
+      -archivePath ./delusionTracker.xcarchive \
       -exportPath ./AppStore \
       -exportOptionsPlist ./ExportOptions.plist
     
     if [ $? -eq 0 ]; then
         echo "✅ IPA 檔案匯出成功！"
         echo "✅ IPA export successful!"
-        echo "📍 位置: ./AppStore/MindfulnessTracker.ipa"
-        echo "📍 Location: ./AppStore/MindfulnessTracker.ipa"
+        echo "📍 位置: ./AppStore/delusionTracker.ipa"
+        echo "📍 Location: ./AppStore/delusionTracker.ipa"
         
         echo ""
         echo "🎯 下一步驟："

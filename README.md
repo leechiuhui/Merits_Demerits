@@ -1,4 +1,4 @@
-# 妄念追蹤器 (Mindfulness Tracker)
+# 妄念追蹤器 (delusion Tracker)
 
 「一切念頭，皆緣起性空，無有自性，虛妄和合而起，故名妄念。當妄（旺）念升起之時，讓一聲可愛狗狗『旺！』提醒您——此念非真，莫逐妄流，當下覺照，回歸本心。」
 
@@ -59,9 +59,9 @@ App 會隨機顯示以下正念提醒：
 ## 🏗️ 專案結構
 
 ```
-MindfulnessTracker/
-├── MindfulnessTracker.xcodeproj     # Xcode 專案檔
-├── MindfulnessTracker/              # 主要程式碼目錄
+delusionTracker/
+├── delusionTracker.xcodeproj     # Xcode 專案檔
+├── delusionTracker/              # 主要程式碼目錄
 │   ├── AppDelegate.swift            # App 生命週期管理
 │   ├── SceneDelegate.swift          # 場景管理
 │   ├── ContentView.swift            # 主介面控制器
@@ -86,13 +86,13 @@ MindfulnessTracker/
 
 1. **進入專案目錄**
 ```bash
-cd /路徑/到/MindfulnessTracker專案
+cd /路徑/到/delusionTracker專案
 ```
 
 2. **清理並重新編譯**
 ```bash
-xcodebuild -project MindfulnessTracker.xcodeproj \
-  -scheme MindfulnessTracker \
+xcodebuild -project delusionTracker.xcodeproj \
+  -scheme delusionTracker \
   -destination 'platform=iOS Simulator,name=iPhone 15 Pro Test,OS=18.5' \
   clean build
 ```
@@ -100,7 +100,7 @@ xcodebuild -project MindfulnessTracker.xcodeproj \
 3. **安裝到模擬器**
 ```bash
 # 找到編譯後的 App 路徑
-APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
 
 # 安裝 App
 xcrun simctl install 'iPhone 15 Pro Test' "$APP_PATH"
@@ -108,13 +108,13 @@ xcrun simctl install 'iPhone 15 Pro Test' "$APP_PATH"
 
 4. **啟動 App**
 ```bash
-xcrun simctl launch 'iPhone 15 Pro Test' com.mindfulness.tracker
+xcrun simctl launch 'iPhone 15 Pro Test' com.delusion.tracker
 ```
 
 #### 方法二：使用 Xcode GUI
 
 1. **打開專案**
-   - 雙擊 `MindfulnessTracker.xcodeproj` 檔案
+   - 雙擊 `delusionTracker.xcodeproj` 檔案
 
 2. **清理專案**
    - 選單 → Product → Clean Build Folder (⇧⌘K)
@@ -134,15 +134,15 @@ xcrun simctl launch 'iPhone 15 Pro Test' com.mindfulness.tracker
 #!/bin/bash
 
 # 妄念追蹤器 - 一鍵編譯腳本
-# MindfulnessTracker - One-Click Build Script
+# delusionTracker - One-Click Build Script
 
-echo "🔨 開始編譯 MindfulnessTracker..."
-echo "🔨 Starting to build MindfulnessTracker..."
+echo "🔨 開始編譯 delusionTracker..."
+echo "🔨 Starting to build delusionTracker..."
 
 # 檢查是否在正確的目錄
-if [ ! -f "MindfulnessTracker.xcodeproj/project.pbxproj" ]; then
-    echo "❌ 錯誤：請在 MindfulnessTracker 專案根目錄中執行此腳本"
-    echo "❌ Error: Please run this script in the MindfulnessTracker project root directory"
+if [ ! -f "delusionTracker.xcodeproj/project.pbxproj" ]; then
+    echo "❌ 錯誤：請在 delusionTracker 專案根目錄中執行此腳本"
+    echo "❌ Error: Please run this script in the delusionTracker project root directory"
     exit 1
 fi
 
@@ -150,8 +150,8 @@ fi
 echo "🧹 清理舊的建置檔案..."
 echo "🧹 Cleaning old build files..."
 
-xcodebuild -project MindfulnessTracker.xcodeproj \
-  -scheme MindfulnessTracker \
+xcodebuild -project delusionTracker.xcodeproj \
+  -scheme delusionTracker \
   -destination 'platform=iOS Simulator,name=iPhone 15 Pro Test,OS=18.5' \
   clean build
 
@@ -164,7 +164,7 @@ if [ $? -eq 0 ]; then
     echo "🔍 尋找編譯後的 App..."
     echo "🔍 Looking for compiled app..."
     
-    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
     
     if [ -n "$APP_PATH" ]; then
         echo "📱 安裝 App 到模擬器..."
@@ -176,7 +176,7 @@ if [ $? -eq 0 ]; then
             echo "🚀 啟動 App..."
             echo "🚀 Launching app..."
             
-            xcrun simctl launch 'iPhone 15 Pro Test' com.mindfulness.tracker
+            xcrun simctl launch 'iPhone 15 Pro Test' com.delusion.tracker
             
             if [ $? -eq 0 ]; then
                 echo ""
@@ -184,7 +184,7 @@ if [ $? -eq 0 ]; then
                 echo "🎉 Done! App is now running in simulator"
                 echo ""
                 echo "📱 妄念追蹤器已準備就緒，開始您的正念練習！"
-                echo "📱 MindfulnessTracker is ready, start your mindfulness practice!"
+                echo "📱 delusionTracker is ready, start your delusion practice!"
             else
                 echo "❌ 啟動 App 失敗"
                 echo "❌ Failed to launch app"
@@ -251,14 +251,14 @@ fi
 
 1. **放置檔案**
    ```
-   MindfulnessTracker/
+   delusionTracker/
    └── woof.wav  ← 放在這裡
    ```
 
 2. **加入專案**
-   - 在 Xcode 中右鍵點擊 `MindfulnessTracker` 資料夾
-   - 選擇 "Add Files to MindfulnessTracker"
-   - 勾選 "Add to target: MindfulnessTracker"
+   - 在 Xcode 中右鍵點擊 `delusionTracker` 資料夾
+   - 選擇 "Add Files to delusionTracker"
+   - 勾選 "Add to target: delusionTracker"
 
 3. **重新編譯**
    - App 會自動偵測並使用 `woof.wav` 檔案
@@ -309,7 +309,7 @@ sudo xcode-select --install
 2. **添加到專案**
    ```bash
    # 將您的 Dog.png 複製到正確位置
-   cp /path/to/your/Dog.png MindfulnessTracker/Assets.xcassets/Dog.imageset/
+   cp /path/to/your/Dog.png delusionTracker/Assets.xcassets/Dog.imageset/
    ```
 
 3. **在 Xcode 中添加**
@@ -421,7 +421,7 @@ let messages = [
 - [ ] 開發者帳號註冊完成
 - [ ] Distribution Certificate 設定
 - [ ] App Store Provisioning Profile 配置
-- [ ] Bundle ID 設定正確 (`com.mindfulness.tracker`)
+- [ ] Bundle ID 設定正確 (`com.delusion.tracker`)
 - [ ] Release 版本編譯成功
 
 **內容準備：**

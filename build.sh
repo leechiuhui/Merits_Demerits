@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # 妄念追蹤器 - 一鍵編譯腳本
-# MindfulnessTracker - One-Click Build Script
+# delusionTracker - One-Click Build Script
 
-echo "🔨 開始編譯 MindfulnessTracker..."
-echo "🔨 Starting to build MindfulnessTracker..."
+echo "🔨 開始編譯 delusionTracker..."
+echo "🔨 Starting to build delusionTracker..."
 
 # 檢查是否在正確的目錄
-if [ ! -f "MindfulnessTracker.xcodeproj/project.pbxproj" ]; then
-    echo "❌ 錯誤：請在 MindfulnessTracker 專案根目錄中執行此腳本"
-    echo "❌ Error: Please run this script in the MindfulnessTracker project root directory"
+if [ ! -f "delusionTracker.xcodeproj/project.pbxproj" ]; then
+    echo "❌ 錯誤：請在 delusionTracker 專案根目錄中執行此腳本"
+    echo "❌ Error: Please run this script in the delusionTracker project root directory"
     exit 1
 fi
 
@@ -17,8 +17,8 @@ fi
 echo "🧹 清理舊的建置檔案..."
 echo "🧹 Cleaning old build files..."
 
-xcodebuild -project MindfulnessTracker.xcodeproj \
-  -scheme MindfulnessTracker \
+xcodebuild -project delusionTracker.xcodeproj \
+  -scheme delusionTracker \
   -destination 'platform=iOS Simulator,name=iPhone 15 Pro Test,OS=18.5' \
   clean build
 
@@ -31,7 +31,7 @@ if [ $? -eq 0 ]; then
     echo "🔍 尋找編譯後的 App..."
     echo "🔍 Looking for compiled app..."
     
-    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "MindfulnessTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
+    APP_PATH=$(find ~/Library/Developer/Xcode/DerivedData -name "delusionTracker.app" -path "*/Debug-iphonesimulator/*" | head -1)
     
     if [ -n "$APP_PATH" ]; then
         echo "📱 安裝 App 到模擬器..."
@@ -43,7 +43,7 @@ if [ $? -eq 0 ]; then
             echo "🚀 啟動 App..."
             echo "🚀 Launching app..."
             
-            xcrun simctl launch 'iPhone 15 Pro Test' com.mindfulness.tracker
+            xcrun simctl launch 'iPhone 15 Pro Test' com.delusion.tracker
             
             if [ $? -eq 0 ]; then
                 echo ""
@@ -51,7 +51,7 @@ if [ $? -eq 0 ]; then
                 echo "🎉 Done! App is now running in simulator"
                 echo ""
                 echo "📱 妄念追蹤器已準備就緒，開始您的正念練習！"
-                echo "📱 MindfulnessTracker is ready, start your mindfulness practice!"
+                echo "📱 delusionTracker is ready, start your delusion practice!"
             else
                 echo "❌ 啟動 App 失敗"
                 echo "❌ Failed to launch app"
